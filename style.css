@@ -5,9 +5,12 @@ body{
 a{
     text-decoration: none;
     color : black;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     white-space: nowrap;
 }
 
+.title:first-child a{
+    font-size: 50px;
+}
   
