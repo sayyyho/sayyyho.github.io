@@ -14,7 +14,12 @@ function changeOrigin(){
     goPage.style.color = "black"
 }
 
+function changeBackgroundColor(){
+    document.body.style.backgroundColor = "skyblue";
+}
+
 goHome.addEventListener("mouseover", changeHomeColor);
 goPage.addEventListener("mouseover", changePageColor);
 goHome.addEventListener("mouseleave", changeOrigin);
 goPage.addEventListener("mouseleave", changeOrigin);
+window.addEventListener("resize", changeBackgroundColor);
