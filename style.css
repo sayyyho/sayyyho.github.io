@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    font-family: 'Jua', sans-serif;
 }
 
 a{
@@ -13,4 +14,11 @@ a{
 .title:first-child a{
     font-size: 50px;
 }
-  
+
+#now{
+    margin-bottom: 0;
+}
+
+#clock{
+    margin-top: 0;
+}
