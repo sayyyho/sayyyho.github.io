@@ -1,6 +1,8 @@
 body{
+    margin-top: 140px;
     text-align: center;
     font-family: 'Jua', sans-serif;
+    background-image: url("img/1.png");
 }
 
 a{
@@ -21,4 +23,8 @@ a{
 
 #clock{
     margin-top: 0;
+}
+
+span{
+    font-size: 20px;
 }
