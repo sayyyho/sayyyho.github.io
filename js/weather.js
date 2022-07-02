@@ -1,4 +1,4 @@
-const API_KEY = config.apikey;
+const API_KEY = APIKEY;
 
 function posOk(position){
     const lat = position.coords.latitude;
